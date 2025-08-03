@@ -1,0 +1,57 @@
+.sobre {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sobre h2 {
+  font-family: "Forum", serif;
+  font-size: 7.75rem;
+  font-weight: 400;
+  order: 2;
+  text-align: right;
+  max-width: 10ch;
+}
+.sobre p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  max-width: 35ch;
+  position: relative;
+}
+.sobre p::after {
+  content: url("../img/bright.svg");
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 300px;
+  left: -120px;
+}
+@media (max-width: 1200px) {
+  .sobre h2 {
+    font-size: 6rem;
+  }
+  .sobre p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1000px) {
+  .sobre h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  .sobre {
+    display: block;
+    padding: 20px;
+  }
+  .sobre h2 {
+    justify-self: right;
+  }
+  .sobre p {
+    margin-top: 12px;
+    font-size: 0.875rem;
+  }
+}

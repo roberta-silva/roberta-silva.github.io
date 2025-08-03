@@ -4,144 +4,170 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roberta - Desenvolverdora e Design</title>
-  <meta name="description" content="Desenvolvedora Font End e UX/UI Designer, Lozalizada no Rio Grande do Sul">
-  <link rel="stylesheet" href="./css/style.min.css">
+  <title>Portfólio | Roberta Silva - Front-end e Designer</title>
+  <meta name="description" content="Desenvolvedora Front End e UX/UI Designer">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 </head>
 
 <body>
-  <header class="header">
-    <img src="./img/marca.svg" alt="Roberta">
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+  <header class="header-container" id="header">
+    <div class="header">
+      <img src="./img/roberta.svg" alt="Roberta">
+      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">Fale comigo</a>
+    </div>
   </header>
-  <main class="introducao">
-    <img src="./img/perfil.jpg" alt="roberta" width="320" height="518">
-    <div>
-      <h1>Desenvolvedora<br> Front End & <br>UX/UI Designer</h1>
-      <p>Localizada no Rio Grande do Sul 🧉</p>
+
+  <main>
+    <div class="introducao">
+      <h1>oi, eu sou a roberta</h1>
+      <img src="./img/perfil.png" alt="roberta" width="353" height="555">
+    </div>
+
+    <div class="sobre">
+      <h2>FRONT-END <br>AND<br> UX/UI DESIGNER</h2>
+      <p class="sobre-texto">Em transição de carreira para a área de tecnologia, com foco em <strong>Front-end</strong> e <strong>UX/UI Design</strong>. Estudo constantemente e aplico os conhecimentos em pequenos projetos, utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, afim de aprimorar minhas habilidades técnicas e visuais.</p>
     </div>
   </main>
 
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
-    <div>
-      <p class="experiencia-texto">Estou em transição de carreira para a área de tecnologia, com foco em desenvolvimento <strong>Front End</strong>. Tenho ampla experiência na área administrativa. No meu último desafio, atuei na reimplementação de um sistema ERP.</p>
-      <div class="empresa">
-        <span class="empresa-ano">2024-25</span>
-        <h3 class="empresa-titulo">Vertrauen</h3>
-        <span class="empresa-titulo">Analista Fiscal</span>
-        <p class="empresa-texto">Responsável pela reimplementação do ERP, colaborando na análise de processos, testes e integração de módulos. Essa experiência aprimorou minha atenção a detalhes e visão sistêmica.</p>
-        <ul class="empresa-habilidades">
-          <li>ERP</li>
-          <li>Lógica</li>
-          <li>Organização</li>
-          <li>Pacote Office</li>
-          <li>Gerenciamento</li>
+  <section class="projetos-bg" aria-label="Projetos">
+    <div class="projetos">
+      <h3 class="subtitulo">Projetos</h3>
 
-        </ul>
-
-      </div>
-
-      <div class="empresa">
-        <span class="empresa-ano">2016-21</span>
-        <h3 class="empresa-titulo">Grupo Hoff</h3>
-        <span class="empresa-titulo">Assistente Administrativo</span>
-        <p class="empresa-texto">Desenvolvi rotinas administrativas utilizando o sistema SAP, realizando conciliações bancárias, controle de documentos e apoio na gestão de processos internos.</p>
-        <ul class="empresa-habilidades">
-          <li>SAP</li>
-          <li>Google Workspace</li>
-          <li>Relatórios</li>
-          <li>Formulários</li>
-
-        </ul>
-
-      </div>
-
-      <div class="empresa">
-        <span class="empresa-ano">2014-16</span>
-        <h3 class="empresa-titulo">CR Diementz</h3>
-        <span class="empresa-titulo">Estágio Escrita Fiscal</span>
-        <p class="empresa-texto">Atuei com conferências fiscais e apuração de tributos, o que contribui para desenvolver atenção a detalhes, organização de dados e lógica de processos.</p>
-        <ul class="empresa-habilidades">
-          <li>Proatividade</li>
-          <li>Atenção a detalhes</li>
-          <li>Rotinas</li>
-          <li>Comunicação</li>
-
-        </ul>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="formacao" id="formacao" aria-label="Formação">
-    <div class="formacao-container">
-      <h2 class="subtitulo">Formação</h2>
-      <div>
-        <p class="formacao-texto">Estou aprimorando meus conhecimentos em desenvolvimento web com foco em <strong>Front End</strong>. Recentemente, concluí um curso de CSS Flexbox para fortalecer minhas habilidades em layout responsivo.</p>
-        <ul class="cursos-lista">
-          <li class="cursos">
-            <span class="cursos-tipo">CURSO</span>
-            <h3 class="cursos-curso">CSS Flexbox</h3>
-            <span class="cursos-instituicao">Origamid</span>
-          </li>
-
-          <li class="cursos">
-            <span class="cursos-tipo">CURSO</span>
-            <h3 class="cursos-curso">HTML e CSS para Iniciantes</h3>
-            <span class="cursos-instituicao">Origamid</span>
-          </li>
-
-          <li class="cursos">
-            <span class="cursos-tipo">CURSO</span>
-            <h3 class="cursos-curso">UI Design para Iniciantes</h3>
-            <span class="cursos-instituicao">Origamid</span>
-          </li>
-        </ul>
-        <div class="formacao-extra">
-          <div class="faculdade">
-            <h3>Formação</h3>
-            <ul>
-              <li>Sistemas de Informação<span>Unisinos</span></li>
-            </ul>
+      <div class="projetos-item">
+        <div class="projeto">
+          <div class="projeto-info">
+            <p class="projeto-titulo">Wildbeast</p>
+            <span class="projeto-texto">Uma página focada em CSS Grid Layout, totalmente responsiva.</span>
           </div>
-
-          <div class="idiomas">
-            <h3>Idiomas</h3>
-            <ul>
-              <li>Inglês<span> / Intermediário</span></li>
-            </ul>
+          <div class="projeto-img"><a href="https://roberta-silva.github.io/wildbeast/" target="_blank" rel="noopener noreferrer">
+              <img src="./img/projetos/wildbeast-desktop.png" alt="preview projeto Wildbeast"></a>
           </div>
+        </div>
 
+        <div class="projeto">
+          <div class="projeto-info">
+            <p class="projeto-titulo">Frontend Mentor</p>
+            <span class="projeto-texto">Soluções de desafios do Frontend Mentor.</span>
+          </div>
+          <div class="projeto-img"><a href="https://github.com/roberta-silva/frontend-mentor-desafios" target="_blank" rel="noopener noreferrer">
+              <img src="./img/projetos/frontend-mentor.png" alt="preview projeto Frontend Mentor"></a>
+          </div>
+        </div>
+
+        <div class="projeto">
+          <div class="projeto-info">
+            <p class="projeto-titulo">Bikcraft</p>
+            <span class="projeto-texto">Um site de desenvolvido com HTML, CSS e JavaScript.</span>
+          </div>
+          <div class="projeto-img"><a href="https://roberta-silva.github.io/bikcraft/" target="_blank" rel="noopener noreferrer">
+              <img src="./img/projetos/bikcraft-desktop.png" alt="preview projeto Bikcraft"></a>
+          </div>
         </div>
 
 
+        <div class="projeto">
+          <div class="projeto-info">
+            <p class="projeto-titulo">Flexblog</p>
+            <span class="projeto-texto">Uma página totalmente responsiva com CSS Flexbox.</span>
+          </div>
+          <div class="projeto-img"><a href="https://roberta-silva.github.io/FlexBlog/" target="_blank" rel="noopener noreferrer">
+              <img src="./img/projetos/flexblog-desktop.png" alt="preview projeto Flexblog"></a>
+          </div>
+        </div>
       </div>
+
+  </section>
+
+  <section class="formacao" aria-label="Formação">
+
+    <h3 class="subtitulo">Formação</h3>
+    <div class="cursos">
+      <span>Cursos</span>
+      <ul class="cursos-lista">
+        <li>
+          <p>JavaScript Completo ES6 <span>37h</span></p>
+          <p>Agosto/2025 <span>Origamid</span></p>
+        </li>
+
+        <li>
+          <p>CSS Grid Layout <span>6h</span></p>
+          <p>Julho/2025 <span>Origamid</span></p>
+        </li>
+
+        <li>
+          <p>CSS Flexbox <span>3h</span></p>
+          <p>Julho/2025 <span>Origamid</span></p>
+        </li>
+
+        <li>
+          <p>HTML e CSS para Iniciantes <span>23h</span></p>
+          <p>Junho/2025 <span>Origamid</span></p>
+        </li>
+
+        <li>
+          <p>UI Design para Iniciantes <span>17h</span></p>
+          <p>Junho/2025 <span>Origamid</span></p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="idiomas">
+      <span>Idiomas</span>
+      <ul>
+        <li>Inglês<span> / Intermediário</span></li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section class="skills-bg">
+    <div class="skills">
+      <h3 class="subtitulo">Skills</h3>
+      <ul>
+        <li><img src="./img/icones/html5.svg" alt="">
+          <span>HTML5</span>
+        </li>
+        <li><img src="./img/icones/css3.svg" alt="">
+          <span>CSS3</span>
+        </li>
+        <li><img src="./img/icones/javascript.svg" alt="">
+          <span>JavaScript</span>
+        </li>
+        <li><img src="./img/icones/git.svg" alt="">
+          <span>Git</span>
+        </li>
+        <li><img src="./img/icones/github.svg" alt="">
+          <span>GitHub</span>
+        </li>
+        <li><img src="./img/icones/figma.svg" alt="">
+          <span>Figma</span>
+        </li>
+      </ul>
+
     </div>
   </section>
 
-  <footer class="footer" id="contato">
-    <div class="footer-container">
-      <p class="footer-texto">Estou aberta a novos projetos no momento. Entre em contato para agendarmos uma conversa! 👋</p>
-      <ul class="footer-contato">
-        <li>robertadasilva.contato@gmail.com</li>
-        <li>+</li>
-        <li><a href="https://www.linkedin.com/in/robertadasilva/">LinkedIn</a></li>
-        <li><a href="https://github.com/roberta-silva">GitHub</a></li>
-      </ul>
-      <p class="footer-copy">© 2025 Roberta da Silva. Alguns direitos reservados.</p>
+  <footer class="footer">
 
+    <ul class="footer-contato">
+      <li><img src="./img/icones/mail.svg" alt=""><a href="mailto:robertadasilva.comtato@gmail.com" target="_blank" rel="noopener noreferrer">robertadasilva.contato@gmail.com</a></li>
+      <li><img src="./img/icones/phone.svg" alt=""><a href="https://wa.me/" target="_blank" rel="noopener noreferrer">+</a></li>
+      <li><img src="./img/icones/linkedin.svg" alt=""><a href="https://www.linkedin.com/in/robertadasilva/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><img src="./img/icones/github.svg" alt=""><a href="https://github.com/roberta-silva" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    </ul>
+
+    <div><a href="#header">
+        <div class="voltar-ao-topo">
+          <img src="./img/icones/seta.svg" width="18" height="10" alt="seta voltar ao topo">
+        </div>
+      </a>
     </div>
+
   </footer>
 
 </body>
