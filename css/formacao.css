@@ -2,18 +2,9 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+  background: url("../img/bright.svg") no-repeat top 17% left 90%;
 }
-.formacao h3 {
-  position: relative;
-}
-.formacao h3::after {
-  position: absolute;
-  content: url("../img/bright.svg");
-  width: 80px;
-  height: 80px;
-  top: 60px;
-  left: 1000px;
-}
+
 .formacao div > span {
   background: #e9ece1;
   font-family: "Forum", serif;
@@ -51,6 +42,9 @@
   font-size: 1.5rem;
 }
 @media (max-width: 800px) {
+  .formacao {
+    background: url("../img/bright.svg") no-repeat top 10% left 90%;
+  }
   .formacao div > span {
     font-size: 1rem;
   }

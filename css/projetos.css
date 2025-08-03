@@ -106,6 +106,14 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 800px) {
+  .projeto:nth-child(odd) .projeto-img::after {
+    display: none;
+  }
+  .projeto:nth-child(even) .projeto-img::before {
+    display: none;
+  }
+}
 @media (max-width: 600px) {
   .projetos {
     padding: 20px 20px 60px 20px;
