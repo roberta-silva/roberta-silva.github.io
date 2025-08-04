@@ -22,12 +22,22 @@
   position: relative;
 }
 .sobre p::after {
+  display: inline-block;
   content: url("../img/bright.svg");
   width: 80px;
   height: 80px;
   position: absolute;
   top: 300px;
   left: -120px;
+  animation: girar 8s linear infinite;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 @media (max-width: 1200px) {
   .sobre h2 {
