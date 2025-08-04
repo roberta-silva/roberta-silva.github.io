@@ -2,11 +2,16 @@
   background: #99a97c;
   min-height: 556px;
 }
-
 .skills {
   max-width: 1200px;
   padding: 40px 20px 60px 20px;
   margin: 0 auto;
+}
+.skills-subtitulo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
 }
 .skills ul {
   display: flex;
@@ -31,9 +36,6 @@
   justify-self: center;
 }
 @media (max-width: 800px) {
-  /* .skills-bg {
-    min-height: none;
-  } */
   .skills ul {
     margin: 0 10px;
   }

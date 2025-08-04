@@ -24,8 +24,8 @@
 
   <main>
     <div class="introducao">
-      <h1>oi, eu sou a roberta</h1>
-      <img src="./img/perfil.png" alt="roberta" width="353" height="555">
+      <h1 data-anime="200" class="fadeInLeft">oi, eu sou a roberta</h1>
+      <img data-anime="200" class="fadeInRight" src="./img/perfil.png" alt="roberta" width="353" height="555">
     </div>
 
     <div class="sobre">
@@ -34,7 +34,7 @@
     </div>
   </main>
 
-  <section class="projetos-bg" aria-label="Projetos">
+  <section class="projetos-bg">
     <div class="projetos">
       <h3 class="subtitulo">Projetos</h3>
 
@@ -45,8 +45,9 @@
             <span class="projeto-texto">Uma página focada em CSS Grid Layout, totalmente responsiva.</span>
           </div>
           <div class="projeto-img"><a href="https://roberta-silva.github.io/wildbeast/" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/wildbeast-desktop.png" alt="preview projeto Wildbeast"></a>
+              <img src="./img/projetos/wildbeast-desktop.png" width="1355" height="817" alt="preview projeto Wildbeast"></a>
           </div>
+          <span class="decorador"><img src="./img/bright.svg" width="80" height="80" alt=""></span>
         </div>
 
         <div class="projeto">
@@ -55,8 +56,9 @@
             <span class="projeto-texto">Soluções de desafios do Frontend Mentor.</span>
           </div>
           <div class="projeto-img"><a href="https://github.com/roberta-silva/frontend-mentor-desafios" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/frontend-mentor.png" alt="preview projeto Frontend Mentor"></a>
+              <img src="./img/projetos/frontend-mentor.png" width="1043" height="747" alt="preview projeto Frontend Mentor"></a>
           </div>
+          <span class="decorador"><img src="./img/bright.svg" width="80" height="80" alt=""></span>
         </div>
 
         <div class="projeto">
@@ -65,8 +67,9 @@
             <span class="projeto-texto">Um site de desenvolvido com HTML, CSS e JavaScript.</span>
           </div>
           <div class="projeto-img"><a href="https://roberta-silva.github.io/bikcraft/" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/bikcraft-desktop.png" alt="preview projeto Bikcraft"></a>
+              <img src="./img/projetos/bikcraft-desktop.png" width="1281" height="907" alt="preview projeto Bikcraft"></a>
           </div>
+          <span class="decorador"><img src="./img/bright.svg" width="80" height="80" alt=""></span>
         </div>
 
 
@@ -76,16 +79,20 @@
             <span class="projeto-texto">Uma página totalmente responsiva com CSS Flexbox.</span>
           </div>
           <div class="projeto-img"><a href="https://roberta-silva.github.io/FlexBlog/" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/flexblog-desktop.png" alt="preview projeto Flexblog"></a>
+              <img src="./img/projetos/flexblog-desktop.png" width="1257" height="853" alt="preview projeto Flexblog"></a>
           </div>
+          <span class="decorador"><img src="./img/bright.svg" width="80" height="80" alt=""></span>
         </div>
+
       </div>
 
   </section>
 
-  <section class="formacao" aria-label="Formação">
-
-    <h3 class="subtitulo">Formação</h3>
+  <section class="formacao">
+    <div class="formacao-subtitulo">
+      <h3 class="subtitulo">Formação</h3>
+      <span class="decorador"><img src="./img/bright.svg" width="80" height="80" alt=""></span>
+    </div>
     <div class="cursos">
       <span>Cursos</span>
       <ul class="cursos-lista">
@@ -127,24 +134,27 @@
 
   <section class="skills-bg">
     <div class="skills">
-      <h3 class="subtitulo">Skills</h3>
+      <div class="skills-subtitulo">
+        <h3 class="subtitulo">Skills</h3>
+        <span class="decorador"><img src="./img/bright.svg" width="80" height="80" alt=""></span>
+      </div>
       <ul>
-        <li><img src="./img/icones/html5.svg" alt="">
+        <li><img src="./img/icones/html5.svg" width="60" height="60" alt="">
           <span>HTML5</span>
         </li>
-        <li><img src="./img/icones/css3.svg" alt="">
+        <li><img src="./img/icones/css3.svg" width="60" height="60" alt="">
           <span>CSS3</span>
         </li>
-        <li><img src="./img/icones/javascript.svg" alt="">
+        <li><img src="./img/icones/javascript.svg" width="60" height="60" alt="">
           <span>JavaScript</span>
         </li>
-        <li><img src="./img/icones/git.svg" alt="">
+        <li><img src="./img/icones/git.svg" width="60" height="60" alt="">
           <span>Git</span>
         </li>
-        <li><img src="./img/icones/github.svg" alt="">
+        <li><img src="./img/icones/github.svg" width="60" height="60" alt="">
           <span>GitHub</span>
         </li>
-        <li><img src="./img/icones/figma.svg" alt="">
+        <li><img src="./img/icones/figma.svg" width="60" height="60" alt="">
           <span>Figma</span>
         </li>
       </ul>
@@ -155,10 +165,10 @@
   <footer class="footer">
 
     <ul class="footer-contato">
-      <li><img src="./img/icones/mail.svg" alt=""><a href="mailto:robertadasilva.comtato@gmail.com" target="_blank" rel="noopener noreferrer">robertadasilva.contato@gmail.com</a></li>
-      <li><img src="./img/icones/phone.svg" alt=""><a href="https://wa.me/" target="_blank" rel="noopener noreferrer">+</a></li>
-      <li><img src="./img/icones/linkedin.svg" alt=""><a href="https://www.linkedin.com/in/robertadasilva/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-      <li><img src="./img/icones/github.svg" alt=""><a href="https://github.com/roberta-silva" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><img src="./img/icones/mail.svg" width="24" height="24" alt=""><a href="mailto:robertadasilva.comtato@gmail.com" target="_blank" rel="noopener noreferrer">robertadasilva.contato@gmail.com</a></li>
+      <li><img src="./img/icones/phone.svg" width="24" height="24" alt=""><a href="https://wa.me/" target="_blank" rel="noopener noreferrer">+</a></li>
+      <li><img src="./img/icones/linkedin.svg" width="24" height="24" alt=""><a href="https://www.linkedin.com/in/robertadasilva/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><img src="./img/icones/github.svg" width="24" height="24" alt=""><a href="https://github.com/roberta-silva" target="_blank" rel="noopener noreferrer">GitHub</a></li>
     </ul>
 
     <div><a href="#header">
@@ -169,7 +179,8 @@
     </div>
 
   </footer>
-
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
