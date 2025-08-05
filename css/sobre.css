@@ -6,11 +6,15 @@
   align-items: center;
   justify-content: space-between;
 }
+.sobre-titulo {
+  order: 2;
+  display: flex;
+  justify-content: right;
+}
 .sobre h2 {
   font-family: "Forum", serif;
   font-size: 7.75rem;
   font-weight: 400;
-  order: 2;
   text-align: right;
   max-width: 10ch;
 }
