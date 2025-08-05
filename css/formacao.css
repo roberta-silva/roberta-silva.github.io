@@ -54,6 +54,9 @@
   .idiomas li {
     font-size: 1rem;
   }
+  .decorador img {
+    max-width: 60px;
+  }
 }
 @media (max-width: 600px) {
   .formacao div > span {
