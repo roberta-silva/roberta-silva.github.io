@@ -16,7 +16,7 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   padding: 8px 16px;
-  border-radius: 50px;
+  border-radius: 40px;
   width: max-content;
   display: inline-block;
   margin-bottom: 24px;
@@ -39,7 +39,7 @@
 .cursos li:nth-child(odd),
 .idiomas li {
   background: #e9ece1;
-  border-radius: 50px;
+  border-radius: 40px;
 }
 .idiomas li {
   padding: 8px 16px;
