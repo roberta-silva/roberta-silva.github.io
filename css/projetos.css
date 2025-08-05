@@ -44,12 +44,12 @@
 .projeto:nth-child(odd) .projeto-info {
   display: grid;
   grid-template-columns: 1fr;
-  border-radius: 50px 0 0 50px;
+  border-radius: 40px 0 0 40px;
   background: #6e8349;
   padding: 0 0 0 20px;
 }
 .projeto:nth-child(odd) .projeto-img {
-  border-radius: 0px 50px 50px 0px;
+  border-radius: 0px 40px 40px 0px;
   background: #6e8349;
   position: relative;
 }
@@ -58,12 +58,12 @@
   grid-template-columns: 1fr;
   grid-column: 3;
   grid-row: 1;
-  border-radius: 0px 50px 50px 0px;
+  border-radius: 0px 40px 40px 0px;
   background: #e0eaca;
   padding: 0 20px 0 0;
 }
 .projeto:nth-child(even) .projeto-img {
-  border-radius: 50px 0 0 50px;
+  border-radius: 40px 0 0 40px;
   grid-column: 2;
   grid-row: 1;
   background: #e0eaca;
@@ -79,7 +79,7 @@
 .projetos-item img {
   border: 2px solid transparent;
   max-width: 300px;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .projeto:nth-child(even) .projeto-img img:hover {
   border: 2px solid #6e8349;
