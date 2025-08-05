@@ -47,15 +47,12 @@
   font-size: 1.5rem;
 }
 @media (max-width: 800px) {
-  .formacao div > span {
+  .formacao div + div > span {
     font-size: 1rem;
   }
   .cursos li,
   .idiomas li {
     font-size: 1rem;
-  }
-  .decorador img {
-    max-width: 60px;
   }
 }
 @media (max-width: 600px) {
