@@ -1,25 +1,25 @@
-.skills-bg {
+.habilidades-bg {
   background: #99a97c;
 }
-.skills {
+.habilidades {
   max-width: 1200px;
   padding: 40px 20px 60px 20px;
   margin: 0 auto;
 }
-.skills-subtitulo {
+.habilidades-subtitulo {
   display: flex;
   align-items: center;
   gap: 8px;
   justify-content: space-between;
 }
-.skills ul {
+.habilidades ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   background: #c6d2b0;
   border-radius: 40px;
 }
-.skills li {
+.habilidades li {
   background: #eaefe0;
   border-radius: 30px;
   width: 120px;
@@ -33,21 +33,21 @@
   align-items: center;
   justify-content: center;
 }
-.skills li img {
+.habilidades li img {
   max-width: 60px;
   margin-bottom: 8px;
 }
 @media (max-width: 800px) {
-  .skills ul {
+  .habilidades ul {
     margin: 0 10px;
   }
-  .skills li {
+  .habilidades li {
     margin: 20px 20px;
     font-size: 1rem;
     width: 90px;
     height: 90px;
   }
-  .skills li img {
+  .habilidades li img {
     max-width: 40px;
   }
 }

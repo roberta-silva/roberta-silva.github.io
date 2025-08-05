@@ -22,6 +22,11 @@
 .decorador {
   transition: transform 1s linear;
 }
+@media (max-width: 800px) {
+  .decorador img {
+    max-width: 60px;
+  }
+}
 @media (max-width: 600px) {
   .decorador img {
     width: 40px;
