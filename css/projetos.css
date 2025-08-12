@@ -45,12 +45,12 @@
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 40px 0 0 40px;
-  background: #6e8349;
+  background: linear-gradient(#7e915b, #597131);
   padding: 0 0 0 20px;
 }
 .projeto:nth-child(odd) .projeto-img {
   border-radius: 0px 40px 40px 0px;
-  background: #6e8349;
+  background: #red;
   position: relative;
 }
 .projeto:nth-child(even) .projeto-info {
