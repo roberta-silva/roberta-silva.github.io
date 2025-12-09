@@ -13,6 +13,7 @@
 .formacao div + div > span {
   background: #e9ece1;
   font-family: "Forum", serif;
+  color: #121a03;
   text-transform: uppercase;
   font-size: 1.5rem;
   padding: 8px 16px;
@@ -27,6 +28,7 @@
 }
 .cursos li {
   font-family: "Fira Sans", sans-serif;
+  color: #121a03;
   font-size: 1.5rem;
   padding: 8px 16px;
   display: flex;

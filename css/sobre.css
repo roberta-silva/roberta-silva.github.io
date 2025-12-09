@@ -15,12 +15,14 @@
   font-family: "Forum", serif;
   font-size: 7.75rem;
   font-weight: 400;
+  color: #121a03;
   text-align: right;
   max-width: 10ch;
 }
 .sobre p {
   font-family: "Fira Sans", sans-serif;
   font-size: 1.5rem;
+  color: #121a03;
   line-height: 1.5;
   max-width: 35ch;
   position: relative;
