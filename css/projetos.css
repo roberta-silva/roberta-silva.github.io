@@ -81,9 +81,6 @@
   max-width: 300px;
   border-radius: 30px;
 }
-.projeto-info {
-  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-}
 .projeto:nth-child(even) .projeto-img img:hover {
   border: 2px solid #6e8349;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
