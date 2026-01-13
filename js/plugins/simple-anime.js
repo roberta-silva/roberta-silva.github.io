@@ -18,7 +18,7 @@ window.SimpleAnime = class {
   }
   init() {
     (this.handleVisibility = this.handleVisibility.bind(this)),
-      this.handleVisibility(),
-      document.addEventListener("visibilitychange", this.handleVisibility);
+    this.handleVisibility(),
+    document.addEventListener("visibilitychange", this.handleVisibility);
   }
 };
