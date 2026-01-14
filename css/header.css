@@ -1,5 +1,6 @@
 .header-container {
-  border-bottom: 1px solid #e9ece1;
+  border-bottom: 1px solid #287e09;
+  background: #000;
 }
 .header {
   max-width: 1200px;
@@ -9,24 +10,54 @@
   justify-content: space-between;
   align-items: center;
 }
-.header a {
-  font-family: "Forum", serif;
-  font-size: 1.75rem;
+.header img {
+  color: #fff;
+}
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.header-menu a {
+  font-family: "IBM Plex Mono", serif;
+  font-size: 1.5rem;
   line-height: 1;
-  color: #121a03;
+  color: #f6f6f6;
   border-radius: 40px;
-  padding: 8px 16px;
+  padding: 4px 16px;
 }
 .header a:hover {
-  background: #eaefe0;
+  background: #2d2d2d;
 }
-@media (max-width: 800px) {
+.header-menu a.contato {
+  background: linear-gradient(#eefadd, #fcfff8);
+  color: #000;
+}
+.header-menu a.contato:hover {
+  background: linear-gradient(#d4eab4, #eefadd);
+}
+.header-menu li {
+  position: relative;
+}
+.header-menu li:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #AFD777;
+  top: 50%;
+  position: absolute;
+}
+@media (max-width: 900px) {
   .header {
     padding: 16px;
     flex-direction: column;
-    gap: 16px;
   }
-  .header a {
-    font-size: 1.5rem;
+  .header-menu {
+    margin-top: 12px;
+  }
+  .header-menu a {
+    font-size: 1rem;
   }
 }
