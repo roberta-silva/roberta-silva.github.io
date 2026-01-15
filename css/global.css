@@ -28,14 +28,13 @@ img {
   box-sizing: border-box;
 }
 .subtitulo {
-  font-family: "Forum", serif;
+  font-family: "Poppins";
   font-size: 7.75rem;
   font-weight: 400;
-  color: #121a03;
-  line-height: 1.1;
+  color: #eef5ec;
+  line-height: 1.3;
   text-transform: uppercase;
-  max-width: 5ch;
-  padding: 60px 0px;
+  margin-bottom: 40px;
 }
 @media (max-width: 1000px) {
   .subtitulo {
@@ -45,6 +44,5 @@ img {
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;
-    padding: 20px 0px;
   }
 }
