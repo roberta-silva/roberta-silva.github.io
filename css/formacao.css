@@ -1,7 +1,10 @@
+.formacao-bg {
+  background: #151515;
+}
 .formacao {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 48px 40px;
 }
 .formacao-subtitulo {
   display: flex;
@@ -11,58 +14,76 @@
 }
 
 .formacao div + div > span {
-  background: #e9ece1;
-  font-family: "Forum", serif;
-  color: #121a03;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  padding: 8px 16px;
-  border-radius: 40px;
+  background: #fcfff8;
+  font-family: "Poppins";
+  color: #2d2d2d;
+  font-size: 1rem;
+  padding: 4px 8px;
+  border-radius: 20px;
   width: max-content;
   display: inline-block;
   margin-bottom: 24px;
 }
+.academica ul,
 .cursos ul,
 .idiomas ul {
   margin-bottom: 40px;
 }
+.idiomas li,
+.academica li,
 .cursos li {
-  font-family: "Fira Sans", sans-serif;
-  color: #121a03;
-  font-size: 1.5rem;
-  padding: 8px 16px;
+  font-family: "IBM Plex Mono";
+  color: #fcfff8;
+  font-size: 1.25rem;
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  margin-bottom: 4px;
+}
+.academica li,
+.cursos li {
   display: flex;
   justify-content: space-between;
 }
+.idiomas li:hover,
+.academica li:hover,
+.cursos li:hover {
+  border: 2px solid #3F3E3E;
+} 
+.academica li span,
 .cursos li span,
 .idiomas li span {
-  color: #6e8349;
+  color: #4ba22b;
 }
+.academica li,
 .cursos li:nth-child(odd),
 .idiomas li {
-  background: #e9ece1;
-  border-radius: 40px;
-}
-.idiomas li {
-  padding: 8px 16px;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 1.5rem;
+  background: #000;  
 }
 @media (max-width: 800px) {
   .formacao div + div > span {
-    font-size: 1rem;
+    font-size: 0.875rem;
+  margin-bottom: 12px;
   }
+  .academica li,
   .cursos li,
   .idiomas li {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 }
 @media (max-width: 600px) {
-  .formacao div > span {
-    font-size: 0.875rem;
+  .formacao div + div > span {
+    font-size: 0.75rem;
   }
+  .academica li,
   .cursos li,
   .idiomas li {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
+  .academica li,
+.cursos li {
+  display: grid;
+  grid-template-columns: 1fr;
 }
+}
+
