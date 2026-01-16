@@ -1,0 +1,64 @@
+.skills-bg {
+  background: #151515;
+}
+.skills {
+  max-width: 1200px;
+  padding: 48px 40px 100px 40px;
+  margin: 0 auto;
+}
+.skills ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  background: #1a5c02;
+  border-radius: 20px;
+  box-shadow: 0 -120px 0 #1a5c02;
+}
+.skills li {
+  background: #eefadd;
+  border-radius: 20px;
+  width: 128px;
+  height: 128px;
+  font-family: "IBM Plex Mono";
+  color: #151515;
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 0 4px 40px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.skills li img {
+  max-width: 60px;
+  margin-bottom: 4px;
+}
+.skills li:hover {
+  background: #d4eab4;
+}
+@media (max-width: 1000px) {
+  .skills ul {
+    box-shadow: 0 -90px 0 #1a5c02;
+  }
+}
+@media (max-width: 800px) {
+  .skills ul {
+    box-shadow: 0 -70px 0 #1a5c02;
+  }
+  .skills li {
+    font-size: 0.75rem;
+    width: 90px;
+    height: 90px;
+    margin: 0 4px 20px 4px;
+  }
+  .skills li img {
+    max-width: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .skills ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
