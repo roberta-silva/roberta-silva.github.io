@@ -3,7 +3,7 @@
 }
 .introducao-container {
   max-width: 1200px;
-  padding: 40px 20px;
+  padding: 100px 40px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -47,11 +47,14 @@
   }
 }
 @media (max-width: 600px) {
+  .introducao-container {
+    padding: 40px 20px;
+  }
   .introducao-conteudo {
     background: none;
   }
   .introducao-conteudo p {
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
   .introducao-container img {
     max-width: 100px;

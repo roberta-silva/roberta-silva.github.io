@@ -3,7 +3,7 @@
 }
 .projetos {
   max-width: 1200px;
-  padding: 48px 40px 100px 40px;
+  padding: 100px 40px;
   margin: 0 auto;
 }
 .projetos-itens {
@@ -58,4 +58,7 @@
 @media (max-width: 800px) {
 }
 @media (max-width: 600px) {
+  .projetos {
+    padding: 40px 20px;
+  }
 }

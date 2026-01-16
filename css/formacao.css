@@ -3,8 +3,8 @@
 }
 .formacao {
   max-width: 1200px;
+  padding: 100px 40px;
   margin: 0 auto;
-  padding: 48px 40px;
 }
 .formacao-subtitulo {
   display: flex;
@@ -72,6 +72,9 @@
   }
 }
 @media (max-width: 600px) {
+  .formacao {
+    padding: 40px 20px;
+  }
   .formacao div + div > span {
     font-size: 0.75rem;
   }
