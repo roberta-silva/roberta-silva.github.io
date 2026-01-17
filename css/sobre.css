@@ -14,7 +14,8 @@
   font-size: 1.5rem;
   color: #f0f5eb;
   line-height: 1.5;
-  max-width: 35ch;
+  max-width: 45ch;
+  text-align: end;
   padding-left: 40px;
   position: relative;
 }
@@ -40,6 +41,7 @@
   .sobre-texto {
     grid-column: 1;
     font-size: 0.75rem;
+    text-align: center;
     justify-self: center;
     padding-left: 0;
     z-index: 9;

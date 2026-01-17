@@ -34,8 +34,8 @@
     <div class="introducao-bg">
       <div class="introducao-container">
         <div class="introducao-conteudo">
-          <h1 data-anime="200" class="fadeInLeft">oi, eu sou a roberta</h1>
-          <p data-anime="200" class="fadeInLeft">Desenvolvedora front-end<br> & UX/UI Design</p>
+          <h1 data-anime="200" class="fadeInLeft">Oi, eu sou a Roberta</h1>
+          <p data-anime="200" class="fadeInLeft">Desenvolvedora Front-end<br> & UX/UI Designer</p>
         </div>
         <img data-anime="200" class="fadeInRight" src="./img/perfil-roberta.png" alt="Foto de perfil Roberta" width="353" height="555">
       </div>
@@ -44,15 +44,20 @@
     <div class="sobre-bg">
       <div class="sobre-container">
         <img class="sobre-decorador" src="./img/decorador-dark.svg" alt="">
-        <p class="sobre-texto">Em transição de carreira para a área de tecnologia, com foco em <strong>Front-end</strong> e <strong>UX/UI Design</strong>. Estudo continuamente e aplico os conhecimentos em projetos práticos, utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, com o objetivo de aprimorar minhas habilidades técnicas e visuais.</p>
+        <p class="sobre-texto">Transformo ideias em interfaces funcionais, bem estruturadas e focadas na experiência do usuário. Utilizo HTML, CSS e JavaScript, aplicando conceitos de UX/UI para criar soluções claras e intuitivas. Tenho atenção aos detalhes, valorizo boas práticas e busco evolução constante na construção de produtos digitais consistentes.
+        </p>
       </div>
     </div>
   </main>
 
   <section class="projetos-bg" id="projetos">
-    <div class="projetos">
+    <div class="projetos-subtitulo">
       <h2 class="subtitulo">Projetos</h2>
-      <div class="projetos-itens">
+    </div>
+
+    <div class="projetos slide-wrapper">
+      <div class="projetos-itens slide">
+
         <div class="projeto">
           <div class="projeto-img">
             <a href="https://roberta-silva.github.io/desafios-inspiracao/" target="_blank" rel="noopener noreferrer">
@@ -60,12 +65,17 @@
             </a>
           </div>
           <div class="projeto-info">
-            <h3 class="projeto-titulo">Inspiração do Dia</h3>
-            <p class="projeto-texto">Página com frases e desafios motivacionais usando JavaScript.</p>
+
+            <div class="projeto-titulo">
+              <h3 class="projeto-nome">Inspiração do Dia</h3>
+              <a href="https://github.com/roberta-silva/desafios-inspiracao" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
+            </div>
+
+            <p class="projeto-texto">Aplicação web que gera frases de desafios motivacionais e mensagens de motivação diária. O usuário pode explorar conteúdos por categoria ou receber frases aleatórias, com foco em uma experiência simples e inspiradora.</p>
             <ul class="projeto-tecnologias">
-              <li>HTML5</li>
-              <li>CSS3</li>
               <li>JavaScript</li>
+              <li>CSS3</li>
+              <li>HTML5</li>
             </ul>
           </div>
         </div>
@@ -74,12 +84,35 @@
               <img src="./img/projetos/frontend-mentor.jpg" width="1200" height="646" alt="Preview do projeto Frontend Mentor"></a>
           </div>
           <div class="projeto-info">
-            <h3 class="projeto-titulo">Frontend Mentor</h3>
-            <p class="projeto-texto">Soluções para desafios do Frontend Mentor.</p>
+            <div class="projeto-titulo">
+              <h3 class="projeto-nome">Frontend Mentor</h3>
+              <a href="https://github.com/roberta-silva/frontend-mentor-desafios" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
+            </div>
+
+            <p class="projeto-texto">Coleção de soluções desenvolvidas a partir dos desafios da plataforma Frontend Mentor. Os projetos focam na prática de HTML, CSS e JavaScript, reforçando layout responsivo, organização de código e fidelidade ao design proposto.</p>
             <ul class="projeto-tecnologias">
+              <li>JavaScript</li>
+              <li>CSS3</li>
+              <li>HTML5</li>
+            </ul>
+          </div>
+        </div>
+        <div class="projeto">
+          <div class="projeto-img"><a href="https://roberta-silva.github.io/animais-fantasticos/" target="_blank" rel="noopener noreferrer">
+              <img src="./img/projetos/animais-fantasticos.jpg" width="1200" height="646" alt="Preview do projeto Animais Fantásticos"></a>
+          </div>
+          <div class="projeto-info">
+            <div class="projeto-titulo">
+              <h3 class="projeto-nome">Animais Fantásticos</h3>
+              <a href="https://github.com/roberta-silva/animais-fantasticos" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
+            </div>
+            <p class="projeto-texto">A aplicação apresenta informações sobre animais de forma interativa, utilizando efeitos de scroll, navegação por tabs e consumo de dados de uma API, tratados em JavaScript a partir de respostas em JSON.</p>
+            <ul class="projeto-tecnologias">
+              <li>JavaScript</li>
+              <li>JSON</li>
+              <li>API</li>
               <li>HTML5</li>
               <li>CSS3</li>
-              <li>JavaScript</li>
             </ul>
           </div>
         </div>
@@ -88,8 +121,13 @@
               <img src="./img/projetos/bikcraft.jpg" width="1200" height="646" alt="Preview do projeto Bikcraft"></a>
           </div>
           <div class="projeto-info">
-            <h3 class="projeto-titulo">Bikcraft</h3>
-            <p class="projeto-texto">Site responsivo desenvolvido com HTML, CSS e JavaScript.</p>
+
+            <div class="projeto-titulo">
+              <h3 class="projeto-nome">Bikcraft</h3>
+              <a href="https://github.com/roberta-silva/bikcraft" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
+            </div>
+
+            <p class="projeto-texto">Site institucional de uma marca fictícia de bicicletas, desenvolvido durante o curso de HTML e CSS. O projeto trabalha estrutura semântica, layout responsivo e boas práticas de estilização.</p>
             <ul class="projeto-tecnologias">
               <li>HTML5</li>
               <li>CSS3</li>
@@ -98,12 +136,36 @@
           </div>
         </div>
         <div class="projeto">
+          <div class="projeto-img"><a href="https://roberta-silva.github.io/wildbeast/" target="_blank" rel="noopener noreferrer">
+              <img src="./img/projetos/wildbeast.jpg" width="1200" height="646" alt="Preview do projeto Wildbeast"></a>
+          </div>
+          <div class="projeto-info">
+
+            <div class="projeto-titulo">
+              <h3 class="projeto-nome">Wildbeast</h3>
+              <a href="https://github.com/roberta-silva/wildbeast" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
+            </div>
+
+            <p class="projeto-texto">Página web desenvolvida com foco na prática de CSS Grid Layout, explorando a criação de layouts complexos e responsivos. O projeto utiliza organização modular do CSS, alinhamento preciso dos elementos e adaptação fluida para diferentes tamanhos de tela.</p>
+            <ul class="projeto-tecnologias">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Grid Layout</li>
+            </ul>
+          </div>
+        </div>
+        <div class="projeto">
           <div class="projeto-img"><a href="https://roberta-silva.github.io/FlexBlog/" target="_blank" rel="noopener noreferrer">
               <img src="./img/projetos/flexblog.jpg" width="1200" height="646" alt="Preview do projeto Flexblog"></a>
           </div>
           <div class="projeto-info">
-            <h3 class="projeto-titulo">Flexblog</h3>
-            <p class="projeto-texto">Página responsiva utilizando CSS Flexbox.</p>
+
+            <div class="projeto-titulo">
+              <h3 class="projeto-nome">Flexblog</h3>
+              <a href="https://github.com/roberta-silva/FlexBlog" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
+            </div>
+
+            <p class="projeto-texto">Página web criada para praticar o uso de Flexbox na construção de layouts flexíveis e responsivos. O projeto explora alinhamento, distribuição de elementos e adaptação a diferentes tamanhos de tela.</p>
             <ul class="projeto-tecnologias">
               <li>HTML5</li>
               <li>CSS3</li>
@@ -111,8 +173,13 @@
             </ul>
           </div>
         </div>
+
       </div>
 
+      <div class="arrow-nav">
+        <button class="prev"></button>
+        <button class="next"></button>
+      </div>
   </section>
 
   <section class="skills-bg" id="skills">
@@ -223,7 +290,7 @@
 
         <li><img src="./img/icones/linkedin.svg" width="24" height="24" alt=""><a href="https://www.linkedin.com/in/robertadasilva/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
 
-        <li><img src="./img/icones/github-footer.svg" width="24" height="24" alt=""><a href="https://github.com/roberta-silva" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><img src="./img/icones/github-light.svg" width="24" height="24" alt=""><a href="https://github.com/roberta-silva" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       </ul>
 
       <div>
@@ -237,7 +304,7 @@
   </footer>
 
   <script src="./js/plugins/simple-anime.js"></script>
-  <script src="./main.js"></script>
+  <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>
