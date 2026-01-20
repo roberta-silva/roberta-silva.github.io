@@ -1,38 +1,48 @@
-## ✨ Portfólio - Roberta da Silva ✨
+# ✨ Portfólio - Roberta da Silva
 
-<img src="/img-intro.png" alt="imagem-introducao" min-width="500" max-width="500px" width="500px" align="center">
+Este repositório contém o código-fonte do meu **portfólio pessoal**, onde apresento projetos, habilidades técnicas e minha evolução como desenvolvedora.
 
-Este repositório contém meu portfólio pessoal desenvolvido com **HTML**, **CSS** e **JavaScript**.
+🔗 **Acesse o portfólio:**
+👉 [https://roberta-silva.github.io/](https://roberta-silva.github.io/)
 
-## 👋Oi , eu sou a Roberta!
 
-🌱 Estou em transição de carreira para a área de **tecnologia**.
+## Sobre
 
-📝 Tenho me dedicado ao **desenvolvimento front-end** com foco em **HTML**, **CSS** e **JavaScript** e também **UX/UI Design**.
+-> Em constante evolução: 
+Novos projetos, melhorias visuais e refatorações serão adicionados conforme meu aprendizado avança.
 
-👩‍💻Este portfólio tem como objetivo demonstrar meus conhecimentos, projetos práticos e a seriedade com que encaro minha transição de carreira.
+-> O portfólio foi criado com foco em:
 
-👉 Acesse clicando [aqui](https://roberta-silva.github.io/)!
+- Código limpo e semântico
+- Responsividade
+- Acessibilidade
+- Boas práticas de frontend
+
+-> Todo o layout e a implementação foram pensados para refletir meu nível técnico atual e minha evolução como desenvolvedora.
+
 
 ## Tecnologias utilizadas
 
-<!-- Linguagens -->
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+- Figma
 
-![HTML5](https://img.shields.io/badge/HTML5-e7e7e7?style=flat&logo=html5&logoColor=000000&labelColor=e7e7e7)
-![CSS3](https://img.shields.io/badge/CSS3-e7e7e7?style=flat&logo=css3&logoColor=000000&labelColor=e7e7e7)
-![JavaScript](https://img.shields.io/badge/JavaScript-e7e7e7?style=flat&logo=javascript&logoColor=000000&labelColor=e7e7e7)
 
-<!-- Controle de versão -->
+## Objetivo
 
-![Git](https://img.shields.io/badge/Git-e7e7e7?style=flat&logo=git&logoColor=000000&labelColor=e7e7e7)
-![GitHub](https://img.shields.io/badge/GitHub-e7e7e7?style=flat&logo=github&logoColor=000000&labelColor=e7e7e7)
 
-<!-- Ferramentas -->
+- Consolidar meus conhecimentos em frontend
+- Servir como vitrine dos meus projetos
+- Demonstrar organização de código e boas práticas
+- Evoluir continuamente conforme avanço nos estudos
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-e7e7e7?style=flat&logo=visual-studio-code&logoColor=000000&labelColor=e7e7e7)
-![Figma](https://img.shields.io/badge/Figma-e7e7e7?style=flat&logo=figma&logoColor=000000&labelColor=e7e7e7)
 
 ## Contato
 
-[![Meu LinkedIn](https://img.shields.io/badge/Meu%20LinkedIn-000000?style=flat&logo=linkedin&logoColor=e7e7e7&color=e7e7e7&labelColor=00000000)](https://www.linkedin.com/in/robertadasilva)
-[![robertadasilva.contato@gmail.com](https://img.shields.io/badge/robertadasilva.contato@gmail.com-e7e7e7?style=flat&logo=gmail&logoColor=000000&color=e7e7e7&labelColor=e7e7e7)](mailto:robertadasilva.contato@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/robertadasilva/](https://www.linkedin.com/in/robertadasilva/)
+- E-mail: [robertadasilva.contato@gmail.com](robertadasilva.contato@gmail.com)
+
+
+*Feedbacks e sugestões são sempre bem-vindos.*
