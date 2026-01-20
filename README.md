@@ -42,7 +42,6 @@ Novos projetos, melhorias visuais e refatorações serão adicionados conforme m
 ## Contato
 
 - LinkedIn: [https://www.linkedin.com/in/robertadasilva/](https://www.linkedin.com/in/robertadasilva/)
-- E-mail: [robertadasilva.contato@gmail.com](robertadasilva.contato@gmail.com)
-
+- E-mail: robertadasilva.contato@gmail.com
 
 *Feedbacks e sugestões são sempre bem-vindos.*
