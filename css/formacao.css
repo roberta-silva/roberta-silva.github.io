@@ -48,8 +48,8 @@
 .idiomas li:hover,
 .academica li:hover,
 .cursos li:hover {
-  border: 2px solid #3F3E3E;
-} 
+  border: 2px solid #3f3e3e;
+}
 .academica li span,
 .cursos li span,
 .idiomas li span {
@@ -58,12 +58,15 @@
 .academica li,
 .cursos li:nth-child(odd),
 .idiomas li {
-  background: #000;  
+  background: #000;
 }
 @media (max-width: 800px) {
+  .formacao {
+    padding: 40px 20px;
+  }
   .formacao div + div > span {
     font-size: 0.875rem;
-  margin-bottom: 12px;
+    margin-bottom: 12px;
   }
   .academica li,
   .cursos li,
@@ -72,9 +75,6 @@
   }
 }
 @media (max-width: 600px) {
-  .formacao {
-    padding: 40px 20px;
-  }
   .formacao div + div > span {
     font-size: 0.75rem;
   }
@@ -84,9 +84,8 @@
     font-size: 0.75rem;
   }
   .academica li,
-.cursos li {
-  display: grid;
-  grid-template-columns: 1fr;
+  .cursos li {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
-}
-

@@ -75,6 +75,11 @@
   border-radius: 20px;
   border: 2px solid #eefadd;
 }
+@media (max-width: 800px) {
+  .projetos-subtitulo {
+    padding: 40px 40px 0 40px;
+  }
+}
 @media (max-width: 600px) {
   .projetos {
     padding: 40px 20px;

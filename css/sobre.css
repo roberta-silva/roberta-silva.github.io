@@ -29,6 +29,9 @@
   }
 }
 @media (max-width: 800px) {
+  .sobre-container {
+    padding: 40px 20px;
+  }
   .sobre-texto {
     font-size: 0.875rem;
   }
@@ -36,7 +39,6 @@
 @media (max-width: 600px) {
   .sobre-container {
     grid-template-columns: 1fr;
-    padding: 40px 20px;
   }
   .sobre-texto {
     grid-column: 1;
