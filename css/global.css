@@ -28,7 +28,7 @@ img {
   box-sizing: border-box;
 }
 .subtitulo {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 7.75rem;
   font-weight: 400;
   color: #eef5ec;

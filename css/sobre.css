@@ -10,7 +10,7 @@
 }
 .sobre-texto {
   grid-column: 2 / 3;
-  font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono", monospace;
   font-size: 1.5rem;
   color: #f0f5eb;
   line-height: 1.5;

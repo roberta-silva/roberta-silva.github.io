@@ -48,13 +48,13 @@
   align-content: center;
 }
 .projeto-nome {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: #eefadd;
 }
 .projeto-texto {
-  font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono", monospace;
   font-size: 1rem;
   line-height: 1.3;
   color: #ccc;
@@ -67,7 +67,7 @@
   margin: auto 0 0 0;
 }
 .projeto-tecnologias li {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1;
   color: #eefadd;

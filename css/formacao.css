@@ -15,7 +15,7 @@
 
 .formacao div + div > span {
   background: #fcfff8;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: #2d2d2d;
   font-size: 1rem;
   padding: 4px 8px;
@@ -32,7 +32,7 @@
 .idiomas li,
 .academica li,
 .cursos li {
-  font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono", monospace;
   color: #fcfff8;
   font-size: 1.25rem;
   padding: 4px 8px;
