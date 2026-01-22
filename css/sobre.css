@@ -23,6 +23,9 @@
   padding-right: 40px;
   align-self: center;
 }
+.sobre-decorador img {
+  padding: 20px;
+}
 @media (max-width: 1000px) {
   .sobre-texto {
     font-size: 1rem;
@@ -50,6 +53,7 @@
     position: relative;
   }
   .sobre-decorador {
+    padding-right: 0px;
     justify-self: center;
     max-width: 400px;
     z-index: 1;
