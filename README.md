@@ -1,12 +1,11 @@
 # Portfólio - Roberta da Silva ✨
 
-Meu portfólio pessoal, onde apresento projetos, habilidades técnicas e minha evolução como desenvolvedora frontend. O site está em constante atualização, com novos projetos, melhorias visuais e refatorações sendo adicionados à medida que meu aprendizado avança. Todo o layout e a implementação foram pensados para refletir meu nível técnico atual e meu progresso como desenvolvedora.
+Meu portfólio pessoal, onde apresento projetos, habilidades técnicas e minha evolução como desenvolvedora. O site está em constante atualização, com novos projetos, melhorias visuais e refatorações sendo adicionados à medida que meu aprendizado avança. Todo o layout e a implementação foram pensados para refletir meu nível técnico atual e meu progresso como desenvolvedora.
 
 > Status do projeto: Concluído ✔️ (em constante evolução)
 
 ## Acesse o projeto
 
-🔗 [https://roberta-silva.github.io/](https://roberta-silva.github.io/)  
 🔗 [https://robertadasilva.com.br/](https://robertadasilva.com.br/)
 
 ## Funcionalidades

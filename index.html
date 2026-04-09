@@ -1,313 +1,325 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio | Roberta Silva - Front-end e Designer</title>
-  <meta name="description" content="Desenvolvedora Front End e UX/UI Designer">
+  <title>Roberta Silva | Desenvolvedora</title>
+  <meta name="description" content="Desenvolvedora front-end criando interfaces rápidas e funcionais com React e JavaScript. Confira projetos reais e código no GitHub.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;1,400&family=DM+Sans:ital,wght@0,300;0,400;1,300&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
 
-  <link rel="preload" href="./css/style.min.css" as="style">
-  <link rel="stylesheet" href="./css/style.min.css">
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
-  <header class="header-container" id="header">
-    <div class="header">
-      <img src="./img/roberta.svg" alt="Roberta">
-      <nav data-menu="suave" aria-label="primaria">
-        <ul class="header-menu">
-          <li><a href="#projetos">projetos</a></li>
-          <li><a href="#skills">skills</a></li>
-          <li><a href="#formacao">formação</a></li>
-          <li><a class="contato" href="#footer">contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <div class="introducao-bg">
-      <div class="introducao-container">
-        <div class="introducao-conteudo">
-          <h1 data-anime="200" class="fadeInLeft">Oi, eu sou a Roberta</h1>
-          <p data-anime="200" class="fadeInLeft">Desenvolvedora Front-end<br> & UX/UI Designer</p>
-        </div>
-        <img data-anime="200" class="fadeInRight" src="./img/perfil-roberta.png" alt="Foto de perfil Roberta" width="360" height="555">
-      </div>
-    </div>
-
-    <div class="sobre-bg">
-      <div class="sobre-container">
-        <div class="sobre-decorador">
-          <img src="./img/decorador-dark.svg" alt="">
-        </div>
-        <p class="sobre-texto">Transformo ideias em interfaces funcionais, bem estruturadas e focadas na experiência do usuário. Utilizo HTML, CSS e JavaScript, aplicando conceitos de UX/UI para criar soluções claras e intuitivas. Tenho atenção aos detalhes, valorizo boas práticas e busco evolução constante na construção de produtos digitais consistentes.
-        </p>
-      </div>
-    </div>
-  </main>
-
-  <section class="projetos-bg" id="projetos">
-    <div class="projetos-subtitulo">
-      <h2 class="subtitulo">Projetos</h2>
-    </div>
-
-    <div class="projetos slide-wrapper">
-      <div class="projetos-itens slide">
-
-        <div class="projeto">
-          <div class="projeto-img">
-            <a href="https://roberta-silva.github.io/desafios-inspiracao/" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/desafios-inpiracao.jpg" width="1200" height="646" alt="Preview do projeto Inspiração do dia">
-            </a>
-          </div>
-          <div class="projeto-info">
-
-            <div class="projeto-titulo">
-              <h3 class="projeto-nome">Inspiração do Dia</h3>
-              <a href="https://github.com/roberta-silva/desafios-inspiracao" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
-            </div>
-
-            <p class="projeto-texto">Aplicação web que gera frases de desafios motivacionais e mensagens de motivação diária. O usuário pode explorar conteúdos por categoria ou receber frases aleatórias, com foco em uma experiência simples e inspiradora.</p>
-            <ul class="projeto-tecnologias">
-              <li>JavaScript</li>
-              <li>CSS3</li>
-              <li>HTML5</li>
-            </ul>
-          </div>
-        </div>
-        <div class="projeto">
-          <div class="projeto-img"><a href="https://github.com/roberta-silva/frontend-mentor-desafios" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/frontend-mentor.jpg" width="1200" height="646" alt="Preview do projeto Frontend Mentor"></a>
-          </div>
-          <div class="projeto-info">
-            <div class="projeto-titulo">
-              <h3 class="projeto-nome">Frontend Mentor</h3>
-              <a href="https://github.com/roberta-silva/frontend-mentor-desafios" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
-            </div>
-
-            <p class="projeto-texto">Coleção de soluções desenvolvidas a partir dos desafios da plataforma Frontend Mentor. Os projetos focam na prática de HTML, CSS e JavaScript, reforçando layout responsivo, organização de código e fidelidade ao design proposto.</p>
-            <ul class="projeto-tecnologias">
-              <li>JavaScript</li>
-              <li>CSS3</li>
-              <li>HTML5</li>
-            </ul>
-          </div>
-        </div>
-        <div class="projeto">
-          <div class="projeto-img"><a href="https://roberta-silva.github.io/animais-fantasticos/" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/animais-fantasticos.jpg" width="1200" height="646" alt="Preview do projeto Animais Fantásticos"></a>
-          </div>
-          <div class="projeto-info">
-            <div class="projeto-titulo">
-              <h3 class="projeto-nome">Animais Fantásticos</h3>
-              <a href="https://github.com/roberta-silva/animais-fantasticos" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
-            </div>
-            <p class="projeto-texto">A aplicação apresenta informações sobre animais de forma interativa, utilizando efeitos de scroll, navegação por tabs e consumo de dados de uma API, tratados em JavaScript a partir de respostas em JSON.</p>
-            <ul class="projeto-tecnologias">
-              <li>JavaScript</li>
-              <li>JSON</li>
-              <li>API</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-            </ul>
-          </div>
-        </div>
-        <div class="projeto">
-          <div class="projeto-img"><a href="https://roberta-silva.github.io/bikcraft/" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/bikcraft.jpg" width="1200" height="646" alt="Preview do projeto Bikcraft"></a>
-          </div>
-          <div class="projeto-info">
-
-            <div class="projeto-titulo">
-              <h3 class="projeto-nome">Bikcraft</h3>
-              <a href="https://github.com/roberta-silva/bikcraft" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
-            </div>
-
-            <p class="projeto-texto">Site institucional de uma marca fictícia de bicicletas, desenvolvido durante o curso de HTML e CSS. O projeto trabalha estrutura semântica, layout responsivo e boas práticas de estilização.</p>
-            <ul class="projeto-tecnologias">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-            </ul>
-          </div>
-        </div>
-        <div class="projeto">
-          <div class="projeto-img"><a href="https://roberta-silva.github.io/wildbeast/" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/wildbeast.jpg" width="1200" height="646" alt="Preview do projeto Wildbeast"></a>
-          </div>
-          <div class="projeto-info">
-
-            <div class="projeto-titulo">
-              <h3 class="projeto-nome">Wildbeast</h3>
-              <a href="https://github.com/roberta-silva/wildbeast" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
-            </div>
-
-            <p class="projeto-texto">Página web desenvolvida com foco na prática de CSS Grid Layout, explorando a criação de layouts complexos e responsivos. O projeto utiliza organização modular do CSS, alinhamento preciso dos elementos e adaptação fluida para diferentes tamanhos de tela.</p>
-            <ul class="projeto-tecnologias">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Grid Layout</li>
-            </ul>
-          </div>
-        </div>
-        <div class="projeto">
-          <div class="projeto-img"><a href="https://roberta-silva.github.io/FlexBlog/" target="_blank" rel="noopener noreferrer">
-              <img src="./img/projetos/flexblog.jpg" width="1200" height="646" alt="Preview do projeto Flexblog"></a>
-          </div>
-          <div class="projeto-info">
-
-            <div class="projeto-titulo">
-              <h3 class="projeto-nome">Flexblog</h3>
-              <a href="https://github.com/roberta-silva/FlexBlog" target="_blank" rel="noopener noreferrer"><img class="projeto-github" src="./img/icones/github-light.svg" alt=""></a>
-            </div>
-
-            <p class="projeto-texto">Página web criada para praticar o uso de Flexbox na construção de layouts flexíveis e responsivos. O projeto explora alinhamento, distribuição de elementos e adaptação a diferentes tamanhos de tela.</p>
-            <ul class="projeto-tecnologias">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Flexbox</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="arrow-nav">
-        <button class="prev"></button>
-        <button class="next"></button>
-      </div>
-  </section>
-
-  <section class="skills-bg" id="skills">
-    <div class="skills">
-      <div class="skills-subtitulo">
-        <h2 class="subtitulo">skills</h2>
-      </div>
+  <nav>
+    <div class="nav-content">
+      <a href="#" class="nav-logo">Roberta</a>
       <ul>
-        <li>
-          <div><img src="./img/icones/javascript.svg" width="60" height="60" alt=""></div>
-          <span>JavaScript</span>
-        </li>
-        <li>
-          <div><img src="./img/icones/html5.svg" width="60" height="60" alt=""></div>
-          <span>HTML5</span>
-        </li>
-        <li>
-          <div><img src="./img/icones/css3.svg" width="60" height="60" alt=""></div>
-          <span>CSS3</span>
-        </li>
-        <li>
-          <div><img src="./img/icones/json.svg" width="60" height="60" alt=""></div>
-          <span>JSON</span>
-        </li>
-        <li>
-          <div><img src="./img/icones/api.svg" width="60" height="60" alt=""></div>
-          <span>API</span>
-        </li>
-        <li>
-          <div><img src="./img/icones/git.svg" width="60" height="60" alt=""></div>
-          <span>Git</span>
-        </li>
-        <li>
-          <div><img src="./img/icones/github.svg" width="60" height="60" alt=""></div>
-          <span>GitHub</span>
-        </li>
-        <li>
-          <div><img src="./img/icones/figma.svg" width="60" height="60" alt=""></div>
-          <span>Figma</span>
-        </li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
-
     </div>
-  </section>
+  </nav>
 
-  <section class="formacao-bg" id="formacao">
-    <div class="formacao">
-      <div class="formacao-subtitulo">
-        <h2 class="subtitulo">Formação</h2>
-      </div>
-      <div class="academica">
-        <span>Formação acadêmica</span>
-        <ul>
-          <li>
-            <p>Análise e Desenvolvimento de Sistemas</p>
-            <p>02/2026 - em andamento <span>PUCRS</span></p>
-          </li>
-        </ul>
-      </div>
-      <div class="cursos">
-        <span>Cursos</span>
-        <ul class="cursos-lista">
-          <li>
-            <p>JavaScript Completo ES6 <span>74h</span></p>
-            <p><span>Origamid </span> 2026</p>
-          </li>
-
-          <li>
-            <p>Fundamentos de Lógica de Programação <span>29h</span></p>
-            <p><span>DIO </span>2025</p>
-          </li>
-
-          <li>
-            <p>CSS Grid Layout <span>10h</span></p>
-            <p><span>Origamid </span>2025</p>
-          </li>
-
-          <li>
-            <p>CSS Flexbox <span>6h</span></p>
-            <p><span>Origamid </span>2025</p>
-          </li>
-
-          <li>
-            <p>HTML e CSS para Iniciantes <span>46h</span></p>
-            <p><span>Origamid </span>2025</p>
-          </li>
-
-          <li>
-            <p>UI Design para Iniciantes <span>34h</span></p>
-            <p><span>Origamid </span>2025</p>
-          </li>
-        </ul>
-      </div>
-
-      <div class="idiomas">
-        <span>Idiomas</span>
-        <ul>
-          <li>Inglês<span> / Intermediário</span></li>
-        </ul>
+  <div class="hero">
+    <div class="hero-left">
+      <div class="hero-tag">Disponível para estágio</div>
+      <h1>
+        Oi<br>
+        Eu sou a<br>
+        Roberta
+      </h1>
+      <p class="hero-bio">
+        Desenvolvedora | JavaScript · React · Python · Node<br><br>
+        Desenvolvo com foco em construir produtos funcionais do frontend ao backend. Curso ADS na PUCRS e busco um estágio onde possa crescer resolvendo problemas reais.
+      </p>
+      <div class="hero-cta">
+        <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+        <a href="#contato" class="btn btn-ghost">Entrar em contato</a>
       </div>
     </div>
-  </section>
 
-  <footer class="footer-bg" id="footer">
-    <div class="footer">
-      <ul class="footer-contato">
-        <li><img src="./img/icones/mail.svg" width="24" height="24" alt=""><a href="mailto:robertadasilva.contato@gmail.com" target="_blank" rel="noopener noreferrer">robertadasilva.contato@gmail.com</a></li>
-
-        <li><img src="./img/icones/linkedin.svg" width="24" height="24" alt=""><a href="https://www.linkedin.com/in/robertadasilva/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-
-        <li><img src="./img/icones/github-light.svg" width="24" height="24" alt=""><a href="https://github.com/roberta-silva" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-      </ul>
-
-      <div>
-        <a href="#header">
-          <div class="voltar-ao-topo">
-            <img src="./img/icones/seta.svg" width="18" height="10" alt="seta voltar ao topo">
+    <div class="hero-right">
+      <div class="hero-visual">
+        <div class="hero-circle"></div>
+        <div class="hero-circle-inner"></div>
+        <div class="orbit-dot"></div>
+        <div class="orbit-dot"></div>
+        <div class="orbit-dot"></div>
+        <div class="hero-center-box">
+          <div class="hero-initial">
+            <img src="./src/img/roberta.png" alt="Foto de perfil">
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee-strip">
+    <div class="marquee-inner">
+      <span class="marquee-item"><span class="dot"></span> JavaScript</span>
+      <span class="marquee-item"><span class="dot"></span> React</span>
+      <span class="marquee-item"><span class="dot"></span> Python</span>
+      <span class="marquee-item"><span class="dot"></span> Node.js</span>
+      <span class="marquee-item"><span class="dot"></span> HTML5</span>
+      <span class="marquee-item"><span class="dot"></span> CSS3</span>
+      <span class="marquee-item"><span class="dot"></span> Git</span>
+      <span class="marquee-item"><span class="dot"></span> Figma</span>
+      <span class="marquee-item"><span class="dot"></span> API Rest</span>
+      <span class="marquee-item"><span class="dot"></span> UX/UI</span>
+      <span class="marquee-item"><span class="dot"></span> JavaScript</span>
+      <span class="marquee-item"><span class="dot"></span> React</span>
+      <span class="marquee-item"><span class="dot"></span> Python</span>
+      <span class="marquee-item"><span class="dot"></span> Node.js</span>
+      <span class="marquee-item"><span class="dot"></span> HTML5</span>
+      <span class="marquee-item"><span class="dot"></span> CSS3</span>
+      <span class="marquee-item"><span class="dot"></span> Git</span>
+      <span class="marquee-item"><span class="dot"></span> Figma</span>
+      <span class="marquee-item"><span class="dot"></span> API Rest</span>
+      <span class="marquee-item"><span class="dot"></span> UX/UI</span>
+    </div>
+  </div>
+
+  <section id="projetos" data-menu="suave">
+    <div class="section-label">Projetos</div>
+    <h2>O que construí</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div>
+          <div class="project-number">01 - Destaque</div>
+          <div class="project-title">Animais Fantásticos</div>
+          <p class="project-desc">Aplicação interativa com consumo de API, navegação por tabs, efeitos de scroll e tratamento de dados JSON.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">API</span>
+            <span class="tag">JSON</span>
+            <span class="tag">CSS3</span>
+          </div>
+          <div class="project-links">
+            <a href="https://roberta-silva.github.io/animais-fantasticos/" class="project-link" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+            <a href="https://github.com/roberta-silva/animais-fantasticos" class="project-link" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+          </div>
+        </div>
+        <div class="project-visual">
+          <img class="project-img" src="./src/img/animais-fantasticos.png" alt="preview do projeto">
+        </div>
+        <div class="project-big-number">01</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number">02</div>
+        <div class="project-title">Inspiração do Dia</div>
+        <p class="project-desc">Gerador de frases motivacionais com categorias e aleatoriedade. JavaScript puro com foco em UX simples e responsiva.</p>
+        <div class="project-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">HTML5</span>
+        </div>
+        <div class="project-links">
+          <a href="https://roberta-silva.github.io/desafios-inspiracao/" class="project-link" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+          <a href="https://github.com/roberta-silva/desafios-inspiracao" class="project-link" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+        </div>
+        <div class="project-big-number">02</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number">03</div>
+        <div class="project-title">Dogs</div>
+        <p class="project-desc">Rede social para amantes de cachorros, onde é possível criar uma conta, fazer login, postar fotos dos seus pets e interagir com as publicações de outros usuários.</p>
+        <div class="project-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">API</span>
+        </div>
+        <div class="project-links">
+          <a href="https://dogs-roberta.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+          <a href="https://github.com/roberta-silva/dogs" class="project-link" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+        </div>
+        <div class="project-big-number">03</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number">04</div>
+        <div class="project-title">Bikcraft</div>
+        <p class="project-desc">Site institucional fictício desenvolvido com foco em HTML e CSS, com o objetivo de praticar a estruturação de páginas web usando HTML semântico e boas práticas.</p>
+        <div class="project-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">HTML</span>
+        </div>
+        <div class="project-links">
+          <a href="https://roberta-silva.github.io/bikcraft/" class="project-link" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+          <a href="https://github.com/roberta-silva/bikcraft" class="project-link" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+        </div>
+        <div class="project-big-number">04</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number">05</div>
+        <div class="project-title">Frontend Mentor</div>
+        <p class="project-desc">Coleção de desafios com foco em layout responsivo, fidelidade ao design e organização de código.</p>
+        <div class="project-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">Responsivo</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/roberta-silva/frontend-mentor-desafios" class="project-link" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+        </div>
+        <div class="project-big-number">05</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills" data-menu="suave">
+    <div class="section-label">Skills</div>
+    <h2>O que sei fazer</h2>
+
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-level">Intermediário</div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 70%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">React</div>
+        <div class="skill-level">Iniciante</div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 45%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Python</div>
+        <div class="skill-level">Iniciante</div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 40%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Node.js</div>
+        <div class="skill-level">Iniciante</div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 35%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">HTML5</div>
+        <div class="skill-level">Avançado</div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 88%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">CSS3</div>
+        <div class="skill-level">Avançado</div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 85%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Git / GitHub</div>
+        <div class="skill-level">Intermediário</div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 60%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">Figma</div>
+        <div class="skill-level">Intermediário</div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 65%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formacao" data-menu="suave">
+    <div class="section-label">Formação</div>
+    <h2>De onde venho</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2026 - Em andamento</div>
+        <div class="timeline-title">Análise e Desenvolvimento de Sistemas</div>
+        <div class="timeline-sub">PUCRS</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2026</div>
+        <div class="timeline-title">React Completo - 36h</div>
+        <div class="timeline-sub">Origamid</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2026</div>
+        <div class="timeline-title">JavaScript Completo ES6 - 74h</div>
+        <div class="timeline-sub">Origamid</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2025</div>
+        <div class="timeline-title">UI Design para Iniciantes - 34h</div>
+        <div class="timeline-sub">Origamid</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2025</div>
+        <div class="timeline-title">Fundamentos de Lógica de Programação - 29h</div>
+        <div class="timeline-sub">DIO</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2025</div>
+        <div class="timeline-title">HTML e CSS para Iniciantes - 46h</div>
+        <div class="timeline-sub">Origamid</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" data-menu="suave">
+    <div class="section-label">Contato</div>
+    <div class="contact-block">
+      <div>
+        <div class="contact-big">Vamos<br>trabalhar<br><span>juntos?</span></div>
+      </div>
+      <div class="contact-links">
+        <span class="contact-link-label"><img src="./src/img/mail.svg" width="18" height="18" alt="">Email</span>
+        <a href="mailto:robertadasilva.contato@gmail.com" class="contact-link">
+
+          robertadasilva.contato@gmail.com
+        </a>
+        <span class="contact-link-label"><img src="./src/img/linkedin.svg" width="15" height="15" alt="">LinkedIn</span>
+
+        <a href="https://www.linkedin.com/in/robertadasilva/" class="contact-link" target="_blank" rel="noopener noreferrer">
+          /in/robertadasilva
+        </a>
+        <span class="contact-link-label"><img src="./src/img/github.svg" width="17" height="17" alt="">GitHub</span>
+
+        <a href="https://github.com/roberta-silva" class="contact-link" target="_blank" rel="noopener noreferrer">
+          /roberta-silva
         </a>
       </div>
     </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <span class="footer-copy">© 2026 Roberta Silva</span>
+      <span class="footer-copy">Desenvolvido por Roberta Silva</span>
+    </div>
   </footer>
 
-  <script src="./js/plugins/simple-anime.js"></script>
-  <script src="./main.js"></script>
+  <script type="module" src="./src/js/script.js"></script>
+
 </body>
 
 </html>
